@@ -1,0 +1,9 @@
+n = int(input("Please enter how many terms of fibonacci is required by you : "))
+
+n1 = 0 #initialisation the first value
+n2 = 1 #initialisation the second value
+for i in range(n):
+    print(n1)
+    nth = n1 #assiginig the initial value to nth i.e 0
+    n1 = n2 #assigning n1 with n2 value i.e 1
+    n2 = nth + n2 #adding the initial value to n2 for getting n2
