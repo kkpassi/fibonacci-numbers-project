@@ -1,0 +1,28 @@
+#Assigning elements to different lists
+
+fruits_list = ["apple" , "mango" , "strawberry" , "cherry"]
+length = len(fruits_list)
+middle_index = length//2
+first_half = fruits_list[:middle_index]
+print(first_half)
+second_half = fruits_list[middle_index:]
+print(second_half)
+
+
+#Accessing elements from a tuple
+
+mycityTuple = ("Mumbai", "Delhi" , "Banglore" , "Hyderabad")
+
+print(mycityTuple[2])
+print(mycityTuple[1])
+
+
+#Deleting different dictationary elements
+
+my_dict = {1:'apple' , 2:'banana' , 3:'kiwi' , 4:'watermelon'}
+
+print(my_dict.pop(3)) #deleting a single dictationary
+print(my_dict)
+print(my_dict.popitem())#pops out a random item from the dictationary
+print(my_dict)
+print(my_dict.clear())#deleting whole elements from the dictationary
